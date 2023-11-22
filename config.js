@@ -1,8 +1,8 @@
 module.exports = {
-    catalogUrl: null,
+    catalogUrl: "https://transfer.data.aad.gov.au/aadc-metadata/catalog.json",
     catalogTitle: "STAC Browser",
     allowExternalAccess: true, // Must be true if catalogUrl is not given
-    allowedDomains: [],
+    allowedDomains: ["transfer.data.aad.gov.au"],
     detectLocaleFromBrowser: true,
     storeLocale: true,
     locale: "en",
